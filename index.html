@@ -23,6 +23,28 @@
         </nav>
     </header>
 
+    <!-- Slideshow -->
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <a href="https://www.facebook.com/YourPostLink1" target="_blank" rel="noopener noreferrer">
+                <img src="Teemo_0.jpg" alt="Image 1" class="slide-image">
+            </a>
+        </div>
+        <div class="slide fade">
+            <a href="https://www.facebook.com/YourPostLink2" target="_blank" rel="noopener noreferrer">
+                <img src="image2.jpg" alt="Image 2" class="slide-image">
+            </a>
+        </div>
+        <div class="slide fade">
+            <a href="https://www.facebook.com/YourPostLink3" target="_blank" rel="noopener noreferrer">
+                <img src="image3.jpg" alt="Image 3" class="slide-image">
+            </a>
+        </div>
+    
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
     <!-- Main Content -->
     <main>
         <!-- Home Section -->
@@ -51,3 +73,31 @@
     </footer>
 </body>
 </html>
+
+<script>
+    let slideIndex = 0;
+    const slides = document.getElementsByClassName("slide");
+
+    function showSlides() {
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 5000);
+    }
+
+    function plusSlides(n) {
+        slideIndex += n;
+        if (slideIndex < 1) { slideIndex = slides.length }
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+    }
+
+    // Start the slideshow
+    showSlides();
+</script>
