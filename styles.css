@@ -91,3 +91,15 @@ section {
         font-size: 1rem;
     }
 }
+/* Logo Section */
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+}
