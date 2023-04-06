@@ -37,8 +37,6 @@ a:hover {
 }
 
 .logo {
-    height: 40px;
-    width: auto;
     margin: 0 10px;
 }
 
@@ -100,6 +98,6 @@ section {
 }
 
 .logo {
-    height: 120px;
+    height: 80px;
     width: auto;
 }
