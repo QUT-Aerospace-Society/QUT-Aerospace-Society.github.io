@@ -20,7 +20,7 @@ title                    : "QUT Aerospace Society"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "QUT Aerospace Society"
-description              : "The QUT Aerospace Society (QUT Aero) is a student-based society with a shared passion for all things Aerospace. We are primarily a project-based club providing opportunities in Rocketry, Multi-Rotor, and Fixed-Wing Aircraft - If you've got an Aerospace project idea, we want to hear it! \nWe host many social and industry networking events throughout the year, to encourage members to make connections both with peers and industry leaders. Connect with us on Facebook, Instagram, LinkedIn, or Discord to keep up to date on club activities!"
+description              :  # seo description
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
