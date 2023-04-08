@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Projects"
-permalink: /projects/
+title: "Events"
+permalink: /events/
 author_profile: false
 ---
