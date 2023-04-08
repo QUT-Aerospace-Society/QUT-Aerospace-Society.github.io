@@ -39,6 +39,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
       sinatra (>= 1.4)
       sinatra-contrib (>= 1.4)
+    jekyll-data (1.1.1)
+      jekyll (>= 3.3, < 5.0.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
@@ -127,6 +129,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.2)
   jekyll-admin
+  jekyll-data
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
   minimal-mistakes-jekyll
