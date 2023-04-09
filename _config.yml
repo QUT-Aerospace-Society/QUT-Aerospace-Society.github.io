@@ -21,23 +21,23 @@ google_ad_client:
 post_limit: 5
 
 
-title : Helium Jekyll
+title : QUT Aerospace Society
 tagline: Bootstrap 4 UI kit for jekyll
 author : 
-  name : Antonio Trento
+  name : QUT Aerospace Society
   site: https://lantoniotrento.github.io
   description : I&#39;m a web master interested in communication applied to web marketing.
   image : social-image.png
   email : lantoniotrento@gmail.com
-  github : antoniotrento
-  twitter : lantoniotrento
-  facebook: lantoniotrento
-  linkedin: antoniotrento
-  instagram: lantoniotrento
-  pinterest: antoniotrento
+  github : qut-aerospace-society
+  twitter : null
+  facebook: qutaero
+  linkedin: qutaero
+  instagram: qutaero
+  pinterest: null
   feedburner : 
 
-twitter_username: lantoniotrento
+twitter_username: null
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
@@ -46,7 +46,7 @@ twitter_username: lantoniotrento
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://heliumjk.github.io
+production_url : https://qut-aerospace-society.github.io/
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -75,7 +75,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://heliumjk.github.io
+  BASE_PATH : https://qut-aerospace-society.github.io/
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -101,7 +101,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus : 
       short_name : jeky-new-age
     #livefyre :
@@ -119,7 +119,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
-    provider : google
+    provider : false
     google :
         tracking_id : 
     getclicky :
